@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 80ch;
+    font-family:"Gabriela", 'Times New Roman', Times, serif;
+    background-color: skyblue;
+    color: #333;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header {
+    width: 80%;
+    background-color: beige;
+    color: #333;
+    border-radius: 20px;
+    font-family: "Gabriela", 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#posts-container {
+    width: 80%;
+    max-width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    background: beige;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.post {
+    border-bottom: 5px solid #ddd;
+    padding: 15px 0;
+}
+
+.post h2 {
+    color: #007BFF;
+    font-size: 24px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.post p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.post-date {
+    font-size: smaller;
+    font-style: italic;
+    color: gray;
+    margin-top: 10px;
+}
+
+
+.post:last-child {
+    border-bottom: none;
+}
+
+.blog-image {
+    width: 300px; 
+    max-width: 400px;  
+    height: auto; 
+    display: block; 
+    margin: 10px 0;
+}
