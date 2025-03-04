@@ -81,5 +81,4 @@ Each post includes:
 ## Author
 Jay Blogs
 
-Stay focused, stay blessed, and keep chasing greatness! 🚀
 
